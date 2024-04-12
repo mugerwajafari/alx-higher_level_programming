@@ -1,14 +1,11 @@
 #!/usr/bin/python3
-
-# Taking user input for two numbers
-
-a = float(input("Enter the first number: "))
-b = float(input("Enter the second number: "))
-
-
+  
 def pow(a, b):
-    return a**b
+    return a ** b
 
+print(pow(2, 2))
+print(pow(98, 2))
+print(pow(98, 0))
+print(pow(100, -2))
+print(pow(-4, 5))
 
-result = pow(a, b)
-print(a, "power", b, "is:", result)
