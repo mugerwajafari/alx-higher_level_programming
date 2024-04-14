@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
-lastDigit = (number) % 10
+lastDigit = abs(number) % 10
 # Determine if the number is negative
 negativeSign = "-" if number < 0 else ""
 # if the last digit is greater than 5: the string > 5
