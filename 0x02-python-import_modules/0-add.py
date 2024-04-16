@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 
-import add_0 
+from add_0 import add 
+
 if __name__ == "__main__":
-	answer = add_0.add(1,2)
+	answer = add(1,2)
 	print("{:d}".format(answer))
 
