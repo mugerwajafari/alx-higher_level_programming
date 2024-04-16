@@ -6,5 +6,5 @@ def uppercase(s):
         ch = ord(c)
         if ch >= 97 and ch <= 122:
             ch -= 32
-        print(chr(ch), end="")
-    print("")
+        print("{}".format(chr(ch), end=""))
+    print()
