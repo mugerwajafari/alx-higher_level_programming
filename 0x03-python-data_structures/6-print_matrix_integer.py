@@ -1,4 +1,4 @@
-#!/bin/python3
+#!/usr/bin/python3
 def print_matrix_integer(matrix=[[]]):
     # Iterate through each row in the matrix
     for row in matrix:
@@ -9,12 +9,3 @@ def print_matrix_integer(matrix=[[]]):
             print("{:d}".format(element), end=" ")
         # Print a new line after each row
         print()
-
-# Example usage
-matrix = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-]
-
-print_matrix_integer(matrix)
