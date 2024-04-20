@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 def multiply_by_2(a_dictionary):
     # Create a copy of the input dictionary to avoid modifying the original dictionary
     b_dictionary = a_dictionary.copy()
