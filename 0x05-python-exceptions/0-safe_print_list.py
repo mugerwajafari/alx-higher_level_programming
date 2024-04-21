@@ -19,9 +19,3 @@ def safe_print_list(my_list=[], x=0):
     
     # Return the real number of elements printed
     return count
-
-# Example usage:
-my_list = [1, 2, 3, 4, 5]
-x = 10  # Try to print more elements than the length of the list
-print("Number of elements printed:", safe_print_list(my_list, x))
-
