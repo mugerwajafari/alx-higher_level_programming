@@ -6,8 +6,3 @@ def safe_print_integer(value):
         return True  # Return True if value is successfully printed
     except (ValueError, TypeError):
         return False  # Return False if value cannot be formatted as an integer or if an error occurs
-
-# Test cases
-print(safe_print_integer(42))  # Output: 42 (followed by a new line), True
-print(safe_print_integer("hello"))  # Output: False
-
