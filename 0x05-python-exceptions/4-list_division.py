@@ -24,8 +24,3 @@ def list_division(my_list_1, my_list_2, list_length):
     except IndexError:
         pass
     return result
-
-# Example usage:
-my_list_1 = [10, 20, 30, 40]
-my_list_2 = [2, 5, 0, 10]
-list_length = 5
