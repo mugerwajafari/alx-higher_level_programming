@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 def list_division(my_list_1, my_list_2, list_length):
     result = []
     try:
@@ -9,18 +10,13 @@ def list_division(my_list_1, my_list_2, list_length):
                 result.append(division_result)
             except IndexError:
                 print("out of range")
-                result.append(0)
+                break
             except ZeroDivisionError:
                 print("division by 0")
                 result.append(0)
             except (TypeError, ValueError):
                 print("wrong type")
                 result.append(0)
-            finally:
-                # Ensure the lists are long enough
-                if len(my_list_1) < list_length or len(my_list_2) < list_length:
-                    print("out of range")
-                    break
     except IndexError:
         pass
     return result
