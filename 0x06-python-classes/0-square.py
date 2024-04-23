@@ -7,5 +7,5 @@ A Square Class
 
 
 class Square:
-	""" This is an empty class"""
-	pass
+  """ This is an empty class"""
+  pass
