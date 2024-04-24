@@ -6,7 +6,7 @@ A Square Class
 """
 
 
-class square:
+class Square:
    """ this is a class"""
 	def __init__(self,size):
         """__init__
