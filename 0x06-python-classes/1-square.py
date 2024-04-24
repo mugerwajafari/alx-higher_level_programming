@@ -1,9 +1,5 @@
 #!/usr/bin/python3
-"""Square Class
-
-A Square Class with an init
-
-"""
+""" Square Class with an init """
 
 
 class Square:
