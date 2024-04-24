@@ -3,7 +3,7 @@
 
 
 class Square:
-   """ this is a class"""
+    """ this is a class"""
 	def __init__(self,size):
         """__init__
 
