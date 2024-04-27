@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """ Square Class with an init """
+
+
 class Square:
     """Square Class
 
